@@ -33,7 +33,7 @@ Control games using your hand gestures! This project allows **real-time hand ges
 ![Gesture Control GIF](demo_game_control.gif)  
 *Index finger movement mapped to accelerate or brake in a game.*
 
-> Replace the GIF URLs with your actual demo files or upload to your GitHub repository for live preview.
+
 
 ---
 
@@ -44,6 +44,70 @@ Control games using your hand gestures! This project allows **real-time hand ges
   - [OpenCV](https://pypi.org/project/opencv-python/)
   - [Mediapipe](https://pypi.org/project/mediapipe/)
   - [PyDirectInput](https://pypi.org/project/PyDirectInput/)
+
+
+Control games using your hand gestures! This project allows **real-time hand gesture detection** via webcam and converts gestures into keyboard inputs for gaming using Mediapipe and PyDirectInput.
+
+---
+
+## 🧩 Step 1: Clone the Repository
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to store your project:
+
+```bash
+cd path/to/your/projects
+🐍 Step 2: Set Up a Virtual Environment (Recommended)
+
+Create a virtual environment:
+
+python -m venv venv
+
+
+Activate the virtual environment:
+
+Windows (PowerShell):
+
+.\venv\Scripts\Activate.ps1
+
+
+Windows (CMD):
+
+.\venv\Scripts\activate.bat
+
+
+Linux/Mac:
+
+source venv/bin/activate
+
+
+Upgrade pip:
+
+pip install --upgrade pip
+
+📦 Step 3: Install Dependencies
+
+Install all required libraries:
+
+pip install -r requirements.txt
+
+
+This will install:
+
+OpenCV
+
+Mediapipe
+
+PyDirectInput
+
+🎮 Step 4: Run the Script
+
+Ensure your webcam is connected and your game window is active.
+
+Run the main script:
+
+python gesture_control.py
+```
 
 Install dependencies:
 
